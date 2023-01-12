@@ -6,37 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HEAR2ME</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/43052858f3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Hear2me</h1>
+        <h1 class="logo">Hear2me</h1>
         <nav>
-            <button><a href="#">Inicio</a></button>
-            <button><a href="#">Sobre Nosotros</a></button>
-            <button><a href="#">Premium</a></button>
-            <button><a href="#">Descargar</a></button>
-            <button><a href="#">Contactar</a></button>
+            <button class="botonnav"><a href="#inicio" class="anav">Inicio</a></button>
+            <button class="botonnav"><a href="#sobrenos" class="anav">Sobre Nosotros</a></button>
+            <button class="botonnav"><a href="#" class="anav">Premium</a></button>
+            <button class="botonnav"><a href="#" class="anav">Descargar</a></button>
+            <button class="botonnav"><a href="#" class="anav">Contactar</a></button>
         </nav>
     </header>
     <main>
         <!-- Inicio Section 1 -->
-        <section>
-            <div>
-                <h1>HEAR2ME</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore expedita velit unde corrupti deserunt ex numquam architecto, aut commodi voluptatem quia ea, dolore voluptatibus earum! Optio quis aspernatur enim veritatis?</p>
-                <button>Acceder a mi biblioteca</button>
+        <section class="section1" id="inicio">
+            <div class="primerdivsection1">
+                <div class="divsection1">
+                    <h1 class="hear2mesection1">HEAR2ME</h1>
+                    <p class="psection1">Esta plataforma innovadora busca ayudar a las personas en su busqueda de poder escuchar podcasts a diario en una excelente calidad y con un uso sencillo.</p>
+                    <button class="botonsection1"><a href="#" class="asection1">Acceder a mi biblioteca</a></button>
+                </div>
+                <img src="assets/img/logo.png" alt="" class="imagensection1">
             </div>
-            <img src="logo" alt="">
+            <i class="fa-solid fa-arrow-down arrowabajo"></i>
         </section>
         <!-- Fin Section 1 -->
 
 
         <!-- Inicio Section 2 -->
-        <section>
-            <img src="fotodevelopers" alt="">
-            <div>
-                <h2>Somos un grupo de programadores y emprendedores dispuestos a cambiar el panorama</h2>
-                <p>Tras muchas idas y vueltas de ideas, desarrollamos la idea de traer una pagina mainstream de podcasts, en la que se pueda disfrutar de escuchar el podcast que quieras</p>
+        <section id="sobrenos" class="section2">
+            <img src="assets/img/creadores.jpg" alt="" class="imagensection2">
+            <div class="divsection2">
+                <h2 class="somossection2">Somos un grupo de programadores y emprendedores dispuestos a cambiar el panorama</h2>
+                <p class="psection2">Tras muchas idas y vueltas de ideas, desarrollamos la idea de traer una pagina mainstream de podcasts, en la que se pueda disfrutar de escuchar el podcast que quieras</p>
             </div>
         </section>
         <!-- Fin Section 2 -->
